@@ -1,0 +1,50 @@
+@media (max-width: 850px) {
+    .nav-title {
+      width: 70%;
+    }
+    .middel__footer {
+      margin-right: 9%;
+    }
+  }
+  @media (min-width: 1200px) {
+      .navbar-expand-xl,
+      .navbar-collapse {
+        justify-content: end;
+      }
+      .navbar {
+        display: flex !important;
+      }
+      .navbar-nav {
+        gap: 28px;
+        margin-right: 28px;
+      }
+  }
+  @media (min-width: 1400px) {
+  .navbar-nav {
+      gap: 38px;
+      margin-right: 38px;
+  }
+  }
+  @media screen and (max-width: 1200px) {
+    .navbar-nav{
+      flex-direction: row;
+      gap: 1rem;
+      height: max-content;
+    }
+    .header .navbar-nav .nav-item a{
+      font-size: 1.5rem;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .cardReviews{
+      font-size: 0.8rem;
+    }
+    .cardFooter span{
+      font-size: 1rem;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .hideBreadCrumb{
+      display: none;
+    }
+  }
